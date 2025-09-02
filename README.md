@@ -1,6 +1,6 @@
 # Ellipse-DIa [EN]
 Project technological stack:
-+ mxGraph library
++ [mxGraph](https://github.com/jgraph/mxgraph?tab=readme-ov-file) library
 + Node.js (server)
 + Native HTML, JS, CSS (client)
 
