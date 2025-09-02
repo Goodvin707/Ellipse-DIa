@@ -1,4 +1,4 @@
-# Ellipse-DIa EN
+# Ellipse-DIa [EN]
 For the correct operation of the program, you will need:
 1. Install the programs "MySql Server 8.0", "MySql Workbench" and "Node.js" on your computer.
 2. Copy to your computer in any place data from the disk "PRG". Note: preferably not on the C drive, so that in case of reinstalling Windows data will not be lost.
