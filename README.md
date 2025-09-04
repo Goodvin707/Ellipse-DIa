@@ -4,15 +4,16 @@ Project technological stack:
 + Node.js (server)
 + Native HTML, JS, CSS (client)
 
+## GUI snapshots
+[![Editor page](https://s.iimg.su/s/04/gaMjwKex7jOziECiKTBAeSQtJiBSucUfMyZCpUfE.png)](https://iimg.su/i/aMjwKe)
+[![Account page](https://s.iimg.su/s/04/gDIXKqMx4zizumGEURXASlCTAYmjPlGENTz6Ew2S.png)](https://iimg.su/i/DIXKqM)
+
 ## Installation guide
 For the correct operation of the program, you will need:
 1. Install the programs "MySql Server 8.0", "MySql Workbench" and "Node.js" on your computer.
 2. Copy to your computer in any place data from the disk "PRG". Note: preferably not on the C drive, so that in case of reinstalling Windows data will not be lost.
-3. Open the program "MySql Server" and configure it.
-	3.1. When configuring the connection, set the port to 3306, and the username and password to root.
-4. Open the MySql Workbench program and select server > data import in the toolbar. 
-	4.1. Select import from self-contained file and choose the path to the database file located in PRG\Database.
-	4.2. New schema and enter hotel. Then start import.
+3. Open the program "MySql Server" and configure it. When configuring the connection, set the port to 3306, and the username and password to root.
+4. Open the MySql Workbench program and select server > data import in the toolbar. Select import from self-contained file and choose the path to the database file located in PRG\Database. New schema and enter hotel. Then start import.
 5. After importing the database, open the console and write "cd <project directory>".
 6. Then write "npm install" and wait for the packages to be installed.
 7. Then write "node index.js".
@@ -23,11 +24,8 @@ For the correct operation of the program, you will need:
 
 1. Установить на ваш компьютер программы «MySql Server 8.0», «MySql Workbench» и «Node.js».
 2. Копируем на ваш компьютер в любое место данные с диска «PRG». Примечание: желательно не на диск C, что бы в случае переустановки Windows данные не были утеряны.
-3. Открываем программу «MySql Server» и настраиваем ее.
-	3.1. При настройке соединения порт устанвливаем 3306, username и password - root.
-4. Открываем программу «MySql Workbench» и в строке инструментов выбираем server > data import. 
-	4.1. Выбираем import from self-contained file и выбираем путь файла БД, который лежит в PRG\Database.
-	4.2. New schema и вводим hotel. Затем start import.
+3. Открываем программу «MySql Server» и настраиваем ее. При настройке соединения порт устанвливаем 3306, username и password - root.
+4. Открываем программу «MySql Workbench» и в строке инструментов выбираем server > data import. Выбираем import from self-contained file и выбираем путь файла БД, который лежит в PRG\Database. New schema и вводим hotel. Затем start import.
 5. После импорта базы данных открывам консоль и пишем "cd <директория проекта>".
 6. Затем пишем "npm install" и ждем пока установятся пакеты.
 7. Затем пишем "node index.js".
